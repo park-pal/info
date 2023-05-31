@@ -1,0 +1,51 @@
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    }
+    
+    
+    
+    /* Tablet styles */
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+    }
+    
+    
+    
+    /* Desktop styles */
+    @media screen and (min-width: 1024px) {
+        /* Document Container */
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Titles */
+        .contact-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        
+        /* Subtitles */
+        .contact-subtitle {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        .contact-sub-subtitle {
+            font-size: 16px;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+        
+        /* Paragraphs */
+        .contact-paragraph {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+    }

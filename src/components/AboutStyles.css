@@ -1,0 +1,70 @@
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+/* CSS rules for mobile devices */
+}
+
+
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* CSS rules for tablets */
+}
+
+
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+    /* Document Container */
+    .about-container {
+        max-width: 800px;
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+    }
+    .about-FAQ-container {
+        max-width: 800px;
+        margin: 0 auto;
+        flex-direction: row;
+        display: flex;
+    }
+    .about-container-left {
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 20px;
+        flex:1;
+    }
+    .about-container-right {
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 20px;
+        flex:1;
+    }
+    
+    /* Titles */
+    .about-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    
+    /* Subtitles */
+    .about-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .about-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    
+    /* Paragraphs */
+    .about-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}

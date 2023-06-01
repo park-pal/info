@@ -23,38 +23,48 @@ const About = () => {
                         We require at least 1 month of cancellation notice. This commitment is necessary
                         for us be able to accept bookings for your space.
                     </p>
+                    <h2 className='about-subtitle'>How do I get paid?</h2>
+                    <p className='about-paragraph'>
+                        When you decide you want to rent your space to us we will ask you for the bank
+                        account you want your earnings to be paid to each month.
+                    </p>
+                    <h2 className='about-subtitle'>Is insurance included with this service?</h2>
+                    <p className='about-paragraph'>
+                        You should assume not. If an incident does occur, Park Pal will work with you in pursuit of an amicable
+                        solution. Although it is unlikely you would have to pay for any damage - it is still a possibility.
+                    </p>
+                    <h2 className='about-subtitle'>Are there any hidden fees or charges associated with using your service?</h2>
+                    <p className='about-paragraph'>
+                        No! We beleive in transparency above all so our quote is what you will see being transferred into your
+                        account every month.
+                    </p>
+                    <h2 className='about-subtitle'>How do you handle customer reviews and feedback?</h2>
+                    <p className='about-paragraph'>
+                        Please feel free to email us any feedback, review, or complaint. We may ask your permission to publish
+                        your words on our website.
+                    </p>
+                    <h2 className='about-subtitle'>How do I update or make changes to my driveway listing?</h2>
+                    <p className='about-paragraph'>
+                        Simply email, text, or call us to update any information related to your driveway.
+                    </p>
+                    <h2 className='about-subtitle'>Are there any legal requirements or permits I need to consider?</h2>
+                    <p className='about-paragraph'>
+                        No for the most part although there may be some special circumstances where you do - dependent
+                        on where the driveway is situated.
+                    </p>
+                    <h2 className='about-subtitle'>Can I rent multiple driveways to Park Pal?</h2>
+                    <p className='about-paragraph'>
+                        Yes absolutely! Both driveways will require independent visits from a Park Pal representative but
+                        yes, if approved, you can rent multiple spaces to us.
+                    </p>
+
+                </div>
+                <div className='about-container-right'>
                     <h2 className='about-subtitle'>How do I sign up?</h2>
                     <p className='about-paragraph'>
                         Signing up is simple - just send a quick text or email with your availability 
                         to schedule a visit from one of our representatives. Visit the contact page to 
                         find our email or phone number.
-                    </p>
-                        <h2 className='about-subtitle'>Is there any insurance coverage for my driveway while it's being rented?</h2>
-                    <p className='about-paragraph'>
-                        Answer
-                    </p>
-                    <h2 className='about-subtitle'>Are there any hidden fees or charges associated with using your service?</h2>
-                    <p className='about-paragraph'>
-                        Answer
-                    </p>
-                    <h2 className='about-subtitle'>How do you handle customer reviews and feedback?</h2>
-                    <p className='about-paragraph'>
-                        Answer
-                    </p>
-                    <h2 className='about-subtitle'>How do I update or make changes to my driveway listing?</h2>
-                    <p className='about-paragraph'>
-                        Answer
-                    </p>
-                    <h2 className='about-subtitle'>Are there any legal requirements or permits I need to consider?</h2>
-                    <p className='about-paragraph'>
-                        Answer
-                    </p>
-                </div>
-                <div className='about-container-right'>
-                    <h2 className='about-subtitle'>How do I get paid?</h2>
-                    <p className='about-paragraph'>
-                        When you decide you want to rent your space to us we will ask you for the bank
-                        account you want your earnings to be paid to each month.
                     </p>
                     <h2 className='about-subtitle'>Can I use my driveway if it's not booked?</h2>
                     <p className='about-paragraph'>
@@ -67,19 +77,25 @@ const About = () => {
                     </p>
                     <h2 className='about-subtitle'>What happens if there is damage to my driveway while it's being rented?</h2>
                     <p className='about-paragraph'>
-                        Answer
+                        This is a complicated question the answer to which will differ greatly dependent on the circumstances.
+                        All we can guarantee at Park Pal is that we will be in frequent communication with you until the
+                        situation is resolved.
                     </p>
                     <h2 className='about-subtitle'>What happens if a renter cancels their reservation?</h2>
                     <p className='about-paragraph'>
-                        Answer
+                        Nothing! One benefit of our using Park Pal is that we take any extended vacancy risks away from 
+                        you the owner.
                     </p>
                     <h2 className='about-subtitle'>Can I choose who rents my driveway, or is it assigned randomly?</h2>
                     <p className='about-paragraph'>
-                        Answer
+                        Unfortunately if you rent your space to us, we will have full discretion over who can park there. If
+                        you wish to rent your space out to someone else you will have to cancel your agreement with us (with
+                        the proper notice) before doing so.
                     </p>
-                    <h2 className='about-subtitle'>What factors determine the rental price for my driveway?</h2>
+                    <h2 className='about-subtitle'>What factors determine the rental price for my space?</h2>
                     <p className='about-paragraph'>
-                        Answer
+                        We use a variety of factors to decide how much to offer space owners including but not limited to:
+                        proximity to transport links, proximity to amenities, parking availability, and 
                     </p>
 
                 </div>

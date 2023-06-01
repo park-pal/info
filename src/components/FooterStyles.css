@@ -15,6 +15,7 @@
       background-color: #01013f;
       flex-direction: column;
       flex:1;
+      margin-top: 60px;
     }
     .footer-row-container {
       display: flex;

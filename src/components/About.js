@@ -7,6 +7,14 @@ const About = () => {
 
     return (
         <div className='about-container'>
+            <h1 className='about-title'>Welcome to Park Pal!</h1>
+            <p className='about-paragraph'>
+                We are an exciting new startup dedicated to helping driveway owners like you turn their unused
+                space into a profitable venture. Our process is straightforward and hassle-free. We handle the
+                marketing, bookings, and customer support, allowing you to focus on reaping the rewards of your
+                driveway investment. What's more - we pay upfront to ensure peace of mind for driveway 
+                owners like you!
+            </p>
             <h1 className='about-title'>FAQs</h1>
             <div className='about-FAQ-container'>
                 <div className='about-container-left'>

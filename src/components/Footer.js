@@ -13,18 +13,18 @@ export default function Footer() {
                     <img src={logo} alt="Logo" className='footer-logo' />
                 </div>
                 <div className='footer-middle-container'>
-                    <a href="https://www.instagram.com" className="footer-link">
+                    <a href="https://www.instagram.com" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faInstagram} />
                         <span>Instagram</span>
                     </a>
-                    <a href="https://www.facebook.com" className="footer-link">
+                    <a href="https://www.facebook.com" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faFacebookF} />
                         <span>Facebook</span>
                     </a>
 
                 </div>
                 <div className="footer-right-name">
-                    <a href="https://www.twitter.com" className="footer-link">
+                    <a href="https://www.twitter.com" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faTwitter} />
                         <span>Twitter</span>
                     </a>

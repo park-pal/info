@@ -58,8 +58,6 @@ const Header = ({ page, setPage }) => {
                 <button className={activePage === 'home'? 'header-active-tab-button':'header-tab-button'} onClick={() => handleClick('home')}>Home</button>
                 <button className={activePage === 'about'? 'header-active-tab-button':'header-tab-button'} onClick={() => handleClick('about')}>About</button>
                 <button className={activePage === 'terms'? 'header-active-tab-button':'header-tab-button'} onClick={() => handleClick('terms')}>Terms</button>
-            </div>
-            <div className='header-right-container'>
                 <button className={activePage === 'contact'? 'header-active-tab-button':'header-tab-button'} onClick={() => handleClick('contact')}>Contact</button>
             </div>
         </header>

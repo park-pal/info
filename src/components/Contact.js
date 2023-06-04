@@ -24,6 +24,12 @@ const Contact = () => {
                 +44 7444 816 550
             </p>
             <br />
+            <h2 className='contact-subtitle'>Social media:</h2>
+            <p className='contact-paragraph'>
+                We are active on a number of popular social media platforms - to find us you
+                can use the links at the bottom of this page.
+            </p>
+            <br />
             <h2 className='contact-subtitle'>Correspondance address:</h2>
             <p className='contact-paragraph'>
                 56 Cameron Square, CR4 3SH, Mitcham

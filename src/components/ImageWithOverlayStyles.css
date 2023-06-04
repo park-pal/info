@@ -1,0 +1,33 @@
+/* Mobile styles */
+@media screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .img-div{
+        width: calc(0.8*var(--image-width));
+        height: 'auto';
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+  
+  /* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablets */
+    .img-div{
+        width: calc(0.5*var(--image-width));
+        height: 'auto';
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+  
+  /* Desktop styles */
+@media screen and (min-width: 1024px) {
+    .img-div{
+        width: calc(0.5 * var(--image-width));
+        height: 'auto';
+        border-radius: 10px;
+        margin: 0;
+    }
+}
+
+/*    width: 0.5*width, height: 'auto', borderRadius:10, margin: 0 */

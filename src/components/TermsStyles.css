@@ -1,6 +1,40 @@
 /* Mobile styles */
 @media screen and (max-width: 767px) {
 /* CSS rules for mobile devices */
+    .terms-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+
+    }
+
+    /* Titles */
+    .terms-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* Subtitles */
+    .terms-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .terms-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .terms-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
 }
 
 
@@ -8,6 +42,40 @@
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 /* CSS rules for tablets */
+    .terms-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+
+    }
+
+    /* Titles */
+    .terms-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* Subtitles */
+    .terms-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .terms-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .terms-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
 }
 
 

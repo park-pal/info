@@ -38,9 +38,9 @@ const ImageWithOverlay = ({ path, text, badgeText }) => {
                     paddingRight: '2%',
                     paddingBottom: '1%',
                     borderRadius: '10px',
-                    opacity: '70%'
+                    opacity: '100%'
                     }}>
-                    <span style={{ color: '#fff', fontSize: '10px' }}>{badgeText}</span>
+                    <span className='badge-text-div' >{badgeText}</span>
                 </div>
                 <div
                     style={{
@@ -57,9 +57,9 @@ const ImageWithOverlay = ({ path, text, badgeText }) => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     borderRadius: 10,
-                    opacity: '70%'
+                    opacity: '100%'
                     }}>
-                    <span style={{ color: '#fff', fontSize: '10px' }}>{text}</span> {/* Replace 'Your Text' with your desired text */}
+                    <span className='img-text-div' >{text}</span> {/* Replace 'Your Text' with your desired text */}
                 </div>
             </div>
         </div>

@@ -1,11 +1,146 @@
 /* Mobile styles */
 @media screen and (max-width: 767px) {
-    /* CSS rules for mobile devices */
+  /* CSS rules for mobile devices */
+  .footer-container {
+    padding-top: 20px;
+    background-color: #01013f;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 60px;
   }
+
+  .footer-row-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+  }
+
+  .footer-left-container {
+    background-color: #01013f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+  }
+
+  .footer-middle-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color: white;
+  }
+
+  .footer-right-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-bottom-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color: white;
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .footer-logo {
+    width: 60px;
+  }
+
+  .footer-link {
+    color: white;
+  }
+
+  .footer-link-logo {
+    padding-left: 0px;
+  }
+}
   
-  /* Tablet styles */
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* CSS rules for tablets */
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* CSS rules for tablets */
+  .footer-container {
+    padding-top: 20px;
+    background-color: #01013f;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 60px;
+  }
+
+  .footer-row-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+  }
+
+  .footer-left-container {
+    background-color: #01013f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+  }
+
+  .footer-middle-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color: white;
+  }
+
+  .footer-right-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+  }
+
+  .footer-bottom-container {
+    background-color: #01013f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    color: white;
+    font-size: small;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .footer-logo {
+    width: 100px;
+    padding-left: 30px;
+  }
+
+  .footer-link {
+    color: white;
+  }
+
+  .footer-link-logo {
+    padding-left: 0px;
+  }
   }
   
   /* Desktop styles */
@@ -57,6 +192,8 @@
       flex: 1;
       color: white;
       font-size: small;
+      margin-left: 5px;
+      margin-right: 5px;
     }
     .footer-logo {
       width: 120px;

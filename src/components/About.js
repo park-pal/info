@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import "./AboutStyles.css"
 
 
 const About = () => {
+
+    useEffect(() => {
+        const updateWidth = () => {
+            const screenWidth = window.innerWidth;
+            document.documentElement.style.setProperty('--image-width', `${screenWidth}px`);
+        };
+
+        updateWidth();
+        window.addEventListener('resize', updateWidth);
+
+        return () => {
+            window.removeEventListener('resize', updateWidth);
+        };
+    }, []);
 
     return (
         <div className='about-container'>

@@ -3,9 +3,17 @@
     /* CSS rules for mobile devices */
     .img-div{
         width: calc(0.8*var(--image-width));
-        height: 'auto';
+        height: auto;
         border-radius: 10px;
         margin: 0;
+    }
+    .badge-text-div{
+        color: #fff;
+         font-size: 10px;
+    }
+    .img-text-div{
+        color: #fff;
+         font-size: 10px;
     }
 }
   
@@ -14,19 +22,35 @@
     /* CSS rules for tablets */
     .img-div{
         width: calc(0.5*var(--image-width));
-        height: 'auto';
+        height: auto;
         border-radius: 10px;
         margin: 0;
+    }
+    .badge-text-div {
+        color: #fff;
+        font-size: 20px;
+    }
+    .img-text-div {
+        color: #fff;
+        font-size: 20px;
     }
 }
   
   /* Desktop styles */
 @media screen and (min-width: 1024px) {
     .img-div{
-        width: calc(0.5 * var(--image-width));
-        height: 'auto';
+        width: calc(0.3 * var(--image-width));
+        height: auto;
         border-radius: 10px;
         margin: 0;
+    }
+    .badge-text-div {
+        color: #fff;
+        font-size: 24px;
+    }
+    .img-text-div {
+        color: #fff;
+        font-size: 24px;
     }
 }
 

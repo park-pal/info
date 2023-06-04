@@ -1,6 +1,67 @@
 /* Mobile styles */
 @media screen and (max-width: 767px) {
 /* CSS rules for mobile devices */
+    .about-container {
+        width: calc(0.8*var(--image-width));
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .about-FAQ-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .about-container-left {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .about-container-right {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    /* Titles */
+    .about-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* Subtitles */
+    .about-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: center;
+        background-color: green;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .about-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .about-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
 }
 
 
@@ -8,6 +69,65 @@
 /* Tablet styles */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 /* CSS rules for tablets */
+    .about-container {
+        width: calc(0.8*var(--image-width));
+        margin: auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .about-FAQ-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .about-container-left {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    .about-container-right {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    /* Titles */
+    .about-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        margin-top: 0px
+    }
+
+    /* Subtitles */
+    .about-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: center;
+        background-color: green;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .about-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .about-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
 }
 
 

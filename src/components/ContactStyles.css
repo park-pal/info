@@ -1,54 +1,132 @@
 /* Mobile styles */
 @media screen and (max-width: 767px) {
-    /* CSS rules for mobile devices */
+/* CSS rules for mobile devices */
+    .contact-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+    }
+
+    /* Titles */
+    .contact-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* Subtitles */
+    .contact-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        color: black;
+
+    }
+
+    .contact-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .contact-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+
+
+
+/* Tablet styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+/* CSS rules for tablets */
+    .contact-container {
+        width: calc(0.8*var(--image-width));
+        margin: 0 auto;
+    }
+
+    /* Titles */
+    .contact-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    /* Subtitles */
+    .contact-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: left;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        color: black;
+
+    }
+
+    .contact-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    /* Paragraphs */
+    .contact-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+}
+
+
+
+/* Desktop styles */
+@media screen and (min-width: 1024px) {
+    /* Document Container */
+    .contact-container {
+        max-width: 800px;
+        margin: 0 auto;
     }
     
-    
-    
-    /* Tablet styles */
-    @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* CSS rules for tablets */
+    /* Titles */
+    .contact-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 40px;
     }
     
-    
-    
-    /* Desktop styles */
-    @media screen and (min-width: 1024px) {
-        /* Document Container */
-        .contact-container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        /* Titles */
-        .contact-title {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 40px;
-        }
-        
-        /* Subtitles */
-        .contact-subtitle {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 5px;
-            text-align: center;
-            background-color: green;
-            padding: 10px;
-            border-radius: 10px;
-            color: white;
-        }
-        .contact-sub-subtitle {
-            font-size: 16px;
-            margin-bottom: 5px;
-            text-align: left;
-        }
-        
-        /* Paragraphs */
-        .contact-paragraph {
-            font-size: 16px;
-            line-height: 1.5;
-            margin-bottom: 10px;
-            text-align: center;
-        }
+    /* Subtitles */
+    .contact-subtitle {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        text-align: center;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        color: black;
     }
+    .contact-sub-subtitle {
+        font-size: 16px;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    
+    /* Paragraphs */
+    .contact-paragraph {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}

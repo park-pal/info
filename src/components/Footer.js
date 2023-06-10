@@ -13,11 +13,11 @@ export default function Footer() {
                     <img src={logo} alt="Logo" className='footer-logo' />
                 </div>
                 <div className='footer-middle-container'>
-                    <a href="https://www.instagram.com" className="footer-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/park_pal_ltd/" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faInstagram} />
                         <span>Instagram</span>
                     </a>
-                    <a href="https://www.facebook.com" className="footer-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/profile.php?id=100093468251163" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faFacebookF} />
                         <span>Facebook</span>
                     </a>

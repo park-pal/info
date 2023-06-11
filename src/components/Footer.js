@@ -21,7 +21,7 @@ export default function Footer() {
                         <FontAwesomeIcon className="footer-link-logo" icon={faFacebookF} />
                         <span>Facebook</span>
                     </a>
-                    <a href="https://www.twitter.com" className="footer-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/Park_Pal1" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faTwitter} />
                         <span>Twitter</span>
                     </a>

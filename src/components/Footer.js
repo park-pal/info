@@ -15,15 +15,15 @@ export default function Footer() {
                 <div className='footer-middle-container'>
                     <a href="https://www.instagram.com/park_pal_ltd/" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faInstagram} />
-                        <span>Instagram</span>
+                        <span>Park_Pal_Ltd</span>
                     </a>
                     <a href="https://www.facebook.com/profile.php?id=100093468251163" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faFacebookF} />
-                        <span>Facebook</span>
+                        <span>Park Pal</span>
                     </a>
                     <a href="https://twitter.com/Park_Pal1" className="footer-link" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon className="footer-link-logo" icon={faTwitter} />
-                        <span>Twitter</span>
+                        <span>@Park_Pal1</span>
                     </a>
 
                 </div>

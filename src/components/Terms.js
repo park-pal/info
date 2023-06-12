@@ -21,7 +21,9 @@ const Terms = () => {
       
   return (
     <div className='terms-container'>
-      <h1 className='terms-title'>Parking Space Lease Agreement</h1>
+      <h1 className='terms-title'>Example Parking Space Lease Agreement</h1>
+      <h2 className='terms-subtitle'>This is just an example agreement and customers should note that
+      their agreement may differ from this one.</h2>
       <h2 className='terms-subtitle'>Introduction</h2>
       <p className='terms-paragraph'>
         This agreement outlines the terms and conditions under which Park Pal Ltd
@@ -31,7 +33,7 @@ const Terms = () => {
       </p>
       <h2 className='terms-subtitle'>Service Description</h2>
       <p className='terms-paragraph'>
-        Park Pal provides a service that connects property owners with available private residential driveways for short-term 
+        Park Pal provides a service that drivers to available private residential driveways for short-term 
         rental. Park Pal operates by listing the available driveways on third-party platforms such as JustPark, Park On My 
         Drive, and YourParkingSpace where renters can browse and reserve available spaces. Park Pal acts as an intermediary 
         between property owners and these third-party platforms, facilitating the rental transaction and providing customer 

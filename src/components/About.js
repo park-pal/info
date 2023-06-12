@@ -23,11 +23,10 @@ const About = () => {
         <div className='about-container'>
             <h1 className='about-title'>Welcome to Park Pal!</h1>
             <p className='about-paragraph'>
-                We are an exciting new startup dedicated to helping driveway owners like you turn their unused
+                We are an exciting new company dedicated to helping driveway owners like you turn their unused
                 space into a profitable venture. Our process is straightforward and hassle-free. We handle the
                 marketing, bookings, and customer support, allowing you to focus on reaping the rewards of your
-                driveway investment. What's more - we pay upfront to ensure peace of mind for driveway 
-                owners like you!
+                driveway investment. What's more - we pay upfront!
             </p>
             <h1 className='about-title'>FAQs</h1>
             <div className='about-FAQ-container'>
@@ -35,27 +34,28 @@ const About = () => {
                     <h2 className='about-subtitle'>Can I cancel whenever?</h2>
                     <p className='about-paragraph'>
                         We require at least 1 month of cancellation notice. This commitment is necessary
-                        for us be able to accept bookings for your space.
+                        as we need to accept bookings for your space.
                     </p>
                     <h2 className='about-subtitle'>How do I get paid?</h2>
                     <p className='about-paragraph'>
-                        When you decide you want to rent your space to us we will ask you for the bank
-                        account you want your earnings to be paid to each month.
+                        When you decide you want to rent your space to us, we will ask you for the bank
+                        account you want your earnings to be paid into each month.
                     </p>
                     <h2 className='about-subtitle'>Is insurance included with this service?</h2>
                     <p className='about-paragraph'>
-                        You should assume not. If an incident does occur, Park Pal will work with you in pursuit of an amicable
-                        solution. Although it is unlikely you would have to pay for any damage - it is still a possibility.
+                        You should assume not. If an incident does occur, Park Pal will work with you in pursuit of an acceptable
+                        solution. It is unlikely you would have to pay for any damage but under some circumstances it's a
+                        possibility.
                     </p>
                     <h2 className='about-subtitle'>Are there any hidden fees or charges associated with using your service?</h2>
                     <p className='about-paragraph'>
-                        No! We beleive in transparency above all so our quote is what you will see being transferred into your
+                        No! We beleive in transparency above all so our quote is what you will see transferred into your
                         account every month.
                     </p>
                     <h2 className='about-subtitle'>How do you handle customer reviews and feedback?</h2>
                     <p className='about-paragraph'>
                         Please feel free to email us any feedback, review, or complaint. We may ask your permission to publish
-                        your words on our website.
+                        your feedback on our website or social media.
                     </p>
                     <h2 className='about-subtitle'>How do I update or make changes to my driveway listing?</h2>
                     <p className='about-paragraph'>
@@ -97,7 +97,7 @@ const About = () => {
                     </p>
                     <h2 className='about-subtitle'>What happens if a renter cancels their reservation?</h2>
                     <p className='about-paragraph'>
-                        Nothing! One benefit of our using Park Pal is that we take any extended vacancy risks away from 
+                        Nothing! One big benefit of using Park Pal is that we take any vacancy risks away from 
                         you the owner.
                     </p>
                     <h2 className='about-subtitle'>Can I choose who rents my driveway, or is it assigned randomly?</h2>
@@ -109,7 +109,7 @@ const About = () => {
                     <h2 className='about-subtitle'>What factors determine the rental price for my space?</h2>
                     <p className='about-paragraph'>
                         We use a variety of factors to decide how much to offer space owners including but not limited to:
-                        proximity to transport links, proximity to amenities, parking availability, and 
+                        proximity to transport links, proximity to amenities, local parking availability, and local parking costs.
                     </p>
 
                 </div>

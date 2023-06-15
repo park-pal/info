@@ -4,7 +4,7 @@ import './HomeStyles.css';
 import ImageWithOverlay from './ImageWithOverlay';
 import img1 from "../assets/images/contactus.jpg"
 import img2 from "../assets/images/driveway1.jpg"
-import img3 from "../assets/images/money.jpg"
+import img3 from "../assets/images/money2.png"
 
 
 const Home = () => {

@@ -33,10 +33,13 @@ const ImageWithOverlay = ({ path, text, badgeText }) => {
                     top: '2%',
                     left: '2%',
                     background: 'green', 
-                    margin: '0px',
                     paddingLeft: '2%',
                     paddingRight: '2%',
-                    paddingBottom: '1%',
+                    paddingTop: '1%',
+                    paddingBottom: '1.5%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
                     borderRadius: '10px',
                     opacity: '100%'
                     }}>
@@ -52,12 +55,12 @@ const ImageWithOverlay = ({ path, text, badgeText }) => {
                     paddingLeft: '2%',
                     paddingRight: '2%',
                     paddingTop: '1%',
-                    paddingBottom: '1%',
+                    paddingBottom: '1.5%',
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
                     borderRadius: 10,
-                    opacity: '100%'
+                    opacity: '70%'
                     }}>
                     <span className='img-text-div' >{text}</span> {/* Replace 'Your Text' with your desired text */}
                 </div>

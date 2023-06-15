@@ -30,8 +30,8 @@ export default function Footer() {
             </div>
             <div className='footer-bottom-container'>
                 <p>
-                    Park Pal Ltd Registered in England and Wales No. 14867222 
-                    56 Cameron Square, Mitcham, England, CR4 3SH, UK
+                    Park Pal Ltd is registered in England and Wales (No. 14867222). 
+                    Located at 56 Cameron Square, Mitcham, England, CR4 3SH, UK
                 </p>
             </div>
         </footer>

@@ -60,7 +60,7 @@ const ImageWithOverlay = ({ path, text, badgeText }) => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     borderRadius: 10,
-                    opacity: '70%'
+                    opacity: '100%'
                     }}>
                     <span className='img-text-div' >{text}</span> {/* Replace 'Your Text' with your desired text */}
                 </div>

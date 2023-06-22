@@ -49,7 +49,7 @@ const About = () => {
                     </p>
                     <h2 className='about-subtitle'>Are there any hidden fees or charges associated with using your service?</h2>
                     <p className='about-paragraph'>
-                        No! We beleive in transparency above all so our quote is what you will see transferred into your
+                        No! We believe in transparency above all so our quote is what you will see transferred into your
                         account every month.
                     </p>
                     <h2 className='about-subtitle'>How do you handle customer reviews and feedback?</h2>
@@ -86,7 +86,7 @@ const About = () => {
                         you should let us know at least a month in advance so we don't accept any 
                         bookings during this time. If this notice period is not met we may still be able
                         to oblige some requests at our discretion. Note that if you use your driveway during
-                        a rental period we will request some componsation - this will usually be deducted
+                        a rental period we will request some compensation - this will usually be deducted
                         from next months rental fee. Please get in touch for more details.
                     </p>
                     <h2 className='about-subtitle'>What happens if there is damage to my driveway while it's being rented?</h2>

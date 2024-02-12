@@ -46,7 +46,7 @@ const Contact = () => {
             <br />
             <h2 className='contact-subtitle'>Correspondance address:</h2>
             <p className='contact-paragraph'>
-                56 Cameron Square, CR4 3SH, Mitcham
+                106 Leamington Avenue, Morden, SM4 4DN, UK
             </p>
             <br />
             <h2 className='contact-subtitle'>Response policy:</h2>

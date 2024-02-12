@@ -31,7 +31,7 @@ export default function Footer() {
             <div className='footer-bottom-container'>
                 <p>
                     Park Pal Ltd is registered in England and Wales (No. 14867222). 
-                    Located at 106 Leamington Avenue, SM4 4DN, UK
+                    Located at 106 Leamington Avenue, Morden, SM4 4DN, UK
                 </p>
             </div>
         </footer>
